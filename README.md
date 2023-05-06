@@ -1,7 +1,5 @@
 # Jardim das Toupeiras
 
-Este é uma Landing Page de apresentação do produto Space Cream, desenvolvida com foco em mobile first e recursos avançados de CSS para melhor adaptação em diferentes dispositivos.
-
 ## Sumário
 - [Descrição do projeto](#descrição-do-projeto)
 - [Funcionalidades e demonstração da aplicação](#funcionalidades-e-demonstração-da-aplicação)
@@ -40,7 +38,3 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 A seguinte pessoa contribuiu para o desenvolvimento deste projeto:
 
 [<img src="https://avatars.githubusercontent.com/u/83726646?v=4" width=115><br><sub>Irion Francisco da Silva</sub>](https://github.com/irion-silva)
-
-# jardim-das-toupeiras
-🚀 Página web criado como desafio extra do Stage 03 do curso Explorer da Rocketseat.
-
