@@ -1,0 +1,230 @@
+:root {
+  --fs-body: 1.6rem;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--fs-body);
+  overflow: hidden;
+  position: relative;
+}
+
+#page {
+  display: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#page::before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('../img/fundo.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  z-index: -1;
+}
+
+.toupeiras {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "A B C D"
+    "E F G H"
+    "I J K L";
+  grid-template-rows: 16.8rem 16.8rem 16.8rem;
+  grid-template-columns: 22.1rem 22.1rem 22.1rem 22.1rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.toupeira {
+  background-image: url('../img/toupeira6.svg');
+  background-repeat: no-repeat;
+  background-size: 21.1rem 9.1rem;
+  width: 100%;
+  height: 100%;
+  animation: MostrarToupeira 1200ms ease-out both;
+}
+
+.toupeiras div:nth-child(1) {
+  grid-area: A;
+  animation-delay: 1s;
+}
+
+.toupeiras div:nth-child(2) {
+  grid-area: B;
+  animation-delay: 5s;
+}
+
+.toupeiras div:nth-child(3) {
+  grid-area: C;
+  animation-delay: 3s;
+}
+
+.toupeiras div:nth-child(4) {
+  grid-area: D;
+  animation-delay: 7s;
+}
+
+.toupeiras div:nth-child(5) {
+  grid-area: E;
+  animation-delay: 11s;
+}
+
+.toupeiras div:nth-child(6) {
+  grid-area: F;
+  animation-delay: 9s;
+}
+
+.toupeiras div:nth-child(7) {
+  grid-area: G;
+  animation-delay: 13s;
+}
+
+.toupeiras div:nth-child(8) {
+  grid-area: H;
+  animation-delay: 17s;
+}
+
+.toupeiras div:nth-child(9) {
+  grid-area: I;
+  animation-delay: 15s;
+}
+
+.toupeiras div:nth-child(10) {
+  grid-area: J;
+  animation-delay: 19s;
+}
+
+.toupeiras div:nth-child(11) {
+  grid-area: K;
+  animation-delay: 21s;
+}
+
+.toupeiras div:nth-child(12) {
+  grid-area: L;
+  animation-delay: 23s;
+}
+
+
+@keyframes MostrarToupeira {
+  0% {
+    background-image: url('../img/toupeira6.svg');
+  }
+
+  14% {
+    background-image: url('../img/toupeira1.svg');
+  }
+
+  28% {
+    background-image: url('../img/toupeira2.svg');
+  }
+
+  42% {
+    background-image: url('../img/toupeira3.svg');
+  }
+
+  70% {
+    background-image: url('../img/toupeira4.svg');
+  }
+
+  84% {
+    background-image: url('../img/toupeira5.svg');
+  }
+
+  100% {
+    background-image: url('../img/toupeira6.svg');
+  }
+}
+
+@media (max-width: 1024px) {
+  .toupeiras {
+    grid-template-columns: 20.9rem 20.9rem 20.9rem 20.9rem;
+    grid-template-rows: 15.8rem 15.8rem 15.8rem;
+  }
+
+    .toupeira {
+      background-size: 20.9rem 9rem;
+    }
+  }
+
+@media (max-width: 900px) {
+  .toupeiras {
+    grid-template-columns: 20.1rem 20.1rem 20.1rem 20.1rem;
+    grid-template-rows: 14rem 14rem 14rem;
+  }
+
+  .toupeira {
+    background-size: 20.1rem 9rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .toupeiras {
+    grid-template-columns: 18.2rem 18.2rem 18.2rem 18.2rem;
+    grid-template-rows: 12.2rem 12.2rem 12rem;
+  }
+
+  .toupeira {
+    background-size: 18.2rem 9rem;
+  }
+}
+
+@media (max-width: 787px) {
+  .toupeiras {
+    grid-template-columns: 16rem 16rem 16rem;
+    grid-template-rows: 12.2rem 12.2rem 12rem 12rem;
+    grid-template-areas: "A B C"
+      "D E F"
+      "G H I"
+      "J K L";
+  }
+
+  .toupeira {
+    background-size: 16rem 9rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .toupeiras {
+    grid-template-columns: 13rem 13rem 13rem;
+    grid-template-rows: 9rem 9rem 9rem 9rem;
+    grid-template-areas: "A B C"
+      "D E F"
+      "G H I"
+      "J K L";
+  }
+
+  .toupeira {
+    background-size: 13rem 9rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .toupeiras {
+    grid-template-columns: 9rem 9rem 9rem;
+    grid-template-rows: 7rem 7rem 7rem 7rem;
+    grid-template-areas: "A B C"
+      "D E F"
+      "G H I"
+      "J K L";
+  }
+
+  .toupeira {
+    background-size: 9rem 7rem;
+  }
+}
