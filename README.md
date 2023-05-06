@@ -40,3 +40,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 A seguinte pessoa contribuiu para o desenvolvimento deste projeto:
 
 [<img src="https://avatars.githubusercontent.com/u/83726646?v=4" width=115><br><sub>Irion Francisco da Silva</sub>](https://github.com/irion-silva)
+
+# jardim-das-toupeiras
+🚀 Página web criado como desafio extra do Stage 03 do curso Explorer da Rocketseat.
+
