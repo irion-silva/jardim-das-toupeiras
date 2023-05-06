@@ -24,7 +24,7 @@ O Jardim das Toupeiras é uma página web interativa que utiliza animações com
 </div>
 
 ## Acesso ao projeto
-O projeto está disponível no seguinte link: [link para o website]().
+O projeto está disponível no seguinte link: [link para o website](https://jardim-das-toupeiras.vercel.app/).
 
 ## Tecnologias utilizadas
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
